@@ -17,6 +17,8 @@ header {
     background-color: #373737;
     padding: 1.2rem 2.4rem;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    width: 100%;
 }
 
 main {
@@ -29,18 +31,13 @@ footer {
     background-color: #373737;
 }
 
-.footer-text {
-    font-size: 1.6rem;
-    color: #EEE;
-    font-weight: 100;
-}
-
 h1 {
     font-weight: 300;
     color: #EEE;
     font-size: 2.4rem;
     letter-spacing: 0.1rem;
     margin: 0;
+    display: inline-block;
 }
 
 h2 {
@@ -78,6 +75,21 @@ iframe {
     height: 300px;
 }
 
+img {
+    width: 24px;
+    height: 24px;
+    margin: 12px;
+}
+
+.social-media-btn {
+    position: absolute;
+    right: 12px;
+    top: 2.25px;
+    width: 48px;
+    height: 48px;
+    color: #EEE;
+}
+
 .project-card {
     background-color: #373737;
     margin: 2.4rem auto;
@@ -91,6 +103,12 @@ iframe {
 
 .project-description {
     margin: 2.4rem;
+}
+
+.footer-text {
+    font-size: 1.6rem;
+    color: #EEE;
+    font-weight: 100;
 }
 
 @media only screen and (max-width: 600px) {
